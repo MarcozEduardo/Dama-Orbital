@@ -27,9 +27,7 @@ secrets/
 firebase/functions/lib/
 firebase/functions/node_modules/
 
-# Documentação interna: nunca publicar
-DOC/
-docs/
+# DOC e docs agora versionados
 
 # Sistema/editor
 .DS_Store
