@@ -1,0 +1,12 @@
+/**
+ * Este arquivo é gerado na próxima sessão a partir de src/game/engine.ts.
+ * Ele deve ser puro: sem React, DOM, áudio, canvas ou Firebase.
+ */
+
+export function initialBoardString(): string {
+  throw new Error("TODO: compartilhar createInitialBoard + encodeBoard com a Function");
+}
+
+export function applyIntentOnServer(_state: unknown, _event: unknown): unknown {
+  throw new Error("TODO: validar MOVE/SURRENDER/TIMEOUT com a engine compartilhada");
+}

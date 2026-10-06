@@ -1,0 +1,179 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "keys": {
+      "$code": {
+        ".read": "auth != null",
+        ".write": "auth != null && newData.exists() && ((!data.exists() && newData.child('ownerUid').val() === auth.uid) || (data.child('ownerUid').val() === auth.uid && newData.child('ownerUid').val() === auth.uid && newData.child('matchId').val() === data.child('matchId').val()))",
+        ".validate": "$code.matches(/^[A-HJ-KM-NP-Z2-9]{6}$/) && newData.hasChildren(['matchId', 'ownerUid', 'createdAt', 'expiresAt', 'status'])",
+        "matchId": {
+          ".validate": "newData.isString() && newData.val().length >= 12 && newData.val().length <= 64"
+        },
+        "ownerUid": {
+          ".validate": "newData.isString() && newData.val() === auth.uid"
+        },
+        "createdAt": {
+          ".validate": "newData.isNumber()"
+        },
+        "expiresAt": {
+          ".validate": "newData.isNumber() && newData.val() > newData.parent().child('createdAt').val()"
+        },
+        "status": {
+          ".validate": "newData.isString() && (newData.val() === 'reserved' || newData.val() === 'waiting' || newData.val() === 'failed' || newData.val() === 'finished' || newData.val() === 'expired')"
+        },
+        "$other": {
+          ".validate": false
+        }
+      }
+    },
+    "matches": {
+      "$matchId": {
+        ".read": "auth != null",
+        ".write": "auth != null && !data.exists() && newData.child('players/p1/uid').val() === auth.uid",
+        ".validate": "newData.hasChildren(['version', 'code', 'status', 'createdAt', 'expiresAt', 'updatedAt', 'players', 'state'])",
+        "version": {
+          ".validate": "newData.val() === 1"
+        },
+        "code": {
+          ".validate": "newData.isString() && newData.val().matches(/^[A-HJ-KM-NP-Z2-9]{6}$/)"
+        },
+        "status": {
+          ".write": "auth != null && (root.child('matches').child($matchId).child('players/p1/uid').val() === auth.uid || root.child('matches').child($matchId).child('players/p2/uid').val() === auth.uid)",
+          ".validate": "newData.isString() && (newData.val() === 'waiting' || newData.val() === 'playing' || newData.val() === 'reconnecting' || newData.val() === 'finished' || newData.val() === 'expired')"
+        },
+        "createdAt": {
+          ".validate": "newData.isNumber()"
+        },
+        "expiresAt": {
+          ".write": "auth != null && (root.child('matches').child($matchId).child('players/p1/uid').val() === auth.uid || root.child('matches').child($matchId).child('players/p2/uid').val() === auth.uid)",
+          ".validate": "newData.isNumber()"
+        },
+        "updatedAt": {
+          ".write": "auth != null && (root.child('matches').child($matchId).child('players/p1/uid').val() === auth.uid || root.child('matches').child($matchId).child('players/p2/uid').val() === auth.uid)",
+          ".validate": "newData.isNumber()"
+        },
+        "players": {
+          "p1": {
+            ".write": "auth != null && data.child('uid').val() === auth.uid && newData.child('uid').val() === auth.uid",
+            ".validate": "newData.hasChildren(['uid', 'nick', 'joinedAt', 'lastSeen'])",
+            "uid": {
+              ".validate": "newData.val() === auth.uid"
+            },
+            "nick": {
+              ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 14"
+            },
+            "joinedAt": {
+              ".validate": "newData.isNumber()"
+            },
+            "lastSeen": {
+              ".validate": "newData.isNumber()"
+            },
+            "$other": {
+              ".validate": false
+            }
+          },
+          "p2": {
+            ".write": "auth != null && ((!data.exists() && newData.child('uid').val() === auth.uid) || (data.child('uid').val() === auth.uid && newData.child('uid').val() === auth.uid))",
+            ".validate": "newData.hasChildren(['uid', 'nick', 'joinedAt', 'lastSeen'])",
+            "uid": {
+              ".validate": "newData.isString()"
+            },
+            "nick": {
+              ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 14"
+            },
+            "joinedAt": {
+              ".validate": "newData.isNumber()"
+            },
+            "lastSeen": {
+              ".validate": "newData.isNumber()"
+            },
+            "$other": {
+              ".validate": false
+            }
+          },
+          "$other": {
+            ".validate": false
+          }
+        },
+        "observers": {
+          "$uid": {
+            ".write": "auth != null && auth.uid === $uid",
+            ".validate": "newData.hasChildren(['uid', 'nick', 'joinedAt', 'lastSeen']) && newData.child('uid').val() === auth.uid",
+            "$other": {
+              ".validate": "$other === 'uid' || $other === 'nick' || $other === 'joinedAt' || $other === 'lastSeen'"
+            }
+          }
+        },
+        "state": {
+          ".write": "auth != null && (root.child('matches').child($matchId).child('players/p1/uid').val() === auth.uid || root.child('matches').child($matchId).child('players/p2/uid').val() === auth.uid) && (newData.child('seq').val() === data.child('seq').val() + 1 || newData.child('seq').val() === data.child('seq').val())",
+          ".validate": "newData.hasChildren(['board', 'turn', 'seq', 'deadlineAt', 'stateHash']) && newData.child('board').isString() && newData.child('board').val().length === 64 && (newData.child('turn').val() === 1 || newData.child('turn').val() === 2) && newData.child('seq').isNumber() && newData.child('deadlineAt').isNumber() && newData.child('stateHash').isString()",
+          "$other": {
+            ".validate": "$other === 'board' || $other === 'turn' || $other === 'seq' || $other === 'lastMove' || $other === 'winner' || $other === 'surrendered' || $other === 'deadlineAt' || $other === 'stateHash' || $other === 'lastEventId' || $other === 'selected' || $other === 'endReason'"
+          }
+        },
+        "events": {
+          "$eventId": {
+            ".write": "auth != null && !data.exists() && newData.child('eventId').val() === $eventId && newData.child('actorUid').val() === auth.uid && (root.child('matches').child($matchId).child('players/p1/uid').val() === auth.uid || root.child('matches').child($matchId).child('players/p2/uid').val() === auth.uid)",
+            ".validate": "newData.hasChildren(['eventId', 'matchId', 'seqExpected', 'actorUid', 'actorSeat', 'kind', 'payload', 'sentAt', 'baseHash']) && newData.child('matchId').val() === $matchId && newData.child('sentAt').isNumber()"
+          }
+        },
+        "pulse": {
+          ".read": "auth != null",
+          "$uid": {
+            ".write": "auth != null && auth.uid === $uid"
+          }
+        },
+        "typing": {
+          ".write": "auth != null && (root.child('matches').child($matchId).child('players/p1/uid').val() === auth.uid || root.child('matches').child($matchId).child('players/p2/uid').val() === auth.uid)",
+          ".validate": "!newData.exists() || newData.hasChildren(['kind', 'who', 'uid', 'until'])"
+        },
+        "radio": {
+          "$messageId": {
+            ".write": "auth != null && !data.exists() && newData.child('uid').val() === auth.uid && (root.child('matches').child($matchId).child('players/p1/uid').val() === auth.uid || root.child('matches').child($matchId).child('players/p2/uid').val() === auth.uid)",
+            ".validate": "newData.hasChildren(['uid', 'text', 'createdAt']) && newData.child('text').isString() && newData.child('text').val().length >= 2 && newData.child('text').val().length <= 40 && newData.child('createdAt').isNumber()"
+          }
+        },
+        "$other": {
+          ".validate": false
+        }
+      }
+    },
+    "live": {
+      "$matchId": {
+        ".read": "auth != null",
+        "$uid": {
+          ".write": "auth != null && auth.uid === $uid"
+        }
+      }
+    },
+    "presence": {
+      "$matchId": {
+        "$uid": {
+          "$connectionId": {
+            ".read": "auth != null",
+            ".write": "auth != null && auth.uid === $uid",
+            ".validate": "newData.hasChildren(['seat', 'connectedAt']) || !newData.exists()"
+          }
+        }
+      }
+    },
+    "presenceMeta": {
+      "$matchId": {
+        "$uid": {
+          "lastSeen": {
+            ".read": "auth != null",
+            ".write": "auth != null && auth.uid === $uid",
+            ".validate": "newData.isNumber()"
+          }
+        }
+      }
+    },
+    "__trystero_damas_orbitais__": {
+      "$room": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    }
+  }
+}

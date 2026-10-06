@@ -1,0 +1,38 @@
+# Dependências e build
+node_modules/
+dist/
+
+# Firebase local
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+ui-debug.log
+
+# Variáveis locais. .env.example é o único arquivo de ambiente versionado.
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Segredos e contas de serviço: nunca versionar
+*serviceAccount*.json
+*service-account*.json
+*firebase-adminsdk*.json
+*.pem
+*.key
+secrets/
+
+# Functions geradas localmente
+firebase/functions/lib/
+firebase/functions/node_modules/
+
+# Documentação interna: nunca publicar
+DOC/
+docs/
+
+# Sistema/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
