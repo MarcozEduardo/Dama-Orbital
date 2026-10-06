@@ -6,17 +6,10 @@
 >
 > **Criado e dirigido por Marcos Eduardo.**
 
-## Documentos de continuidade
+## 📚 Portfólio
 
-- [Central de implantação Firebase e Functions](DOC/README.md)
-- [Checklist de integração em uma lapada](DOC/CHECKLIST-UMA-LAPADA.md)
 - [Estudo de caso: como Marcos Eduardo orquestrou a evolução do jogo](docs/CASE-STUDY-ORQUESTRACAO.md)
-- [Handoff cirúrgico do multiplayer entre dispositivos](docs/MULTIPLAYER-HANDOFF.md)
-- [Handoff da sessão e estado real do projeto](docs/SESSION-HANDOFF.md)
-
-> **Importante:** o menu, QR e modelo de salas já existem, mas o transporte atual de `src/game/net.ts`
-> ainda conecta apenas abas do mesmo navegador. O próximo passo é Firebase RTDB + WebRTC, conforme o
-> handoff técnico.
+- [Sacadas do Marcão: decisões de game design que nasceram do teste real](docs/SACADAS-DO-MARCOS.md)
 
 ---
 

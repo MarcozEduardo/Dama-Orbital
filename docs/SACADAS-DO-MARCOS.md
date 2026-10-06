@@ -1,3 +1,7 @@
+<a id="topo-sacadas"></a>
+
+> 📑 **[Ver índice navegável](SACADAS-INDICE.md)** · ⬅️ **[Voltar pro README](../README.md)**
+
 # Sacadas do Marcos Eduardo
 
 Registro das percepções de produto que nasceram do teste real, não do código. Cada uma foi detectada
@@ -5,7 +9,12 @@ jogando, não lendo log. Todas estão implementadas.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 1. A malandragem do delay assimétrico
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -35,7 +44,12 @@ antes dos mísseis.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 2. Rádio com direito de resposta
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -52,7 +66,12 @@ a última palavra garantida na rodada.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 3. Congelar o relógio quando alguém digita
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -71,7 +90,12 @@ regressiva. Transparência total — a pausa nunca parece travamento.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 4. A placa no lugar da barrinha
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -92,7 +116,12 @@ o semáforo.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 5. O semáforo em vez de texto
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -111,7 +140,12 @@ orbital. Não é um widget: é uma peça da nave.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 6. O QR que já entra na partida
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -131,7 +165,12 @@ Mesma filosofia da cutscene do Bobby escondendo o processamento dos sprites.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 7. Feedback ao emitir a chave
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -146,7 +185,12 @@ gerar duas salas. O anel girando e a barra de progresso não são enfeite: **sã
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 8. QR grande é requisito, não estética
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -159,7 +203,12 @@ tela cheia com o código gigante embaixo — funciona como fallback quando a câ
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 9. Peso visual proporcional à importância
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -175,7 +224,12 @@ dobra. No mobile o HUD virou uma linha horizontal compacta; no desktop continua 
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 10. Desconexão por inatividade com saída digna
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -208,7 +262,12 @@ Nenhuma delas veio de stack trace. Todas vieram de **jogar e perceber o que esta
 
 # Rodada 2 · bugs achados jogando
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 11. O BUG CABULOSO da rendição
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -246,7 +305,12 @@ sirene, estandarte e barragem completa.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 12. Os efeitos não existiam para o adversário
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -278,7 +342,12 @@ replay escolheria a errada e as telas divergiriam. O teste automatizado cobre ju
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 13. Clareza de vez: cor antes de texto
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -300,7 +369,12 @@ real do oponente em vez de "BOBBY/SOCRAM".
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 14. O QR tem que ser poderoso
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -322,7 +396,12 @@ conexão — nunca para bloquear.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 15. Poluição visual na placa
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -343,7 +422,12 @@ O rótulo `ZOAR` resolveu de vez a confusão: ninguém mais lê o ícone de rád
 
 # Rodada 3 · o bug da rota espelhada
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 16. "A peça do Bobby sai de dentro da do Socram"
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -374,7 +458,12 @@ elemento rotacionado. Fora dele, só coisas em coordenada de tela.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 17. O replay era engolido por estado sujo
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -403,7 +492,12 @@ real e corrompendo o estado.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 18. Sandbox sem saída
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -427,7 +521,12 @@ Se divergirem por mais de 2,5s, o autoritativo vence e o cliente ressincroniza s
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 19. A peça que se rebela
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -449,7 +548,12 @@ tracejado dourado — dá pra ver em qual peça o oponente está pensando.
 
 # Rodada 4 · simetria total
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 20. "Delay zero e todo mundo vê igual"
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -476,7 +580,12 @@ mais barata que continuar defendendo a exceção.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 21. O bug que só aparecia para quem demorava
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -498,7 +607,12 @@ em silêncio**. O jogador via a própria animação e achava que tinha funcionad
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 22. Um sensor nunca basta
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -530,7 +644,12 @@ confiar no aviso de saída.
 
 # Rodada 5 · a causa raiz de tudo
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 23. Uma linha explicava os três bugs
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -591,7 +710,12 @@ pontual do rádio não resolveu porque tratei o sintoma, não o padrão.
 
 # Rodada 6 · sinal não é estado
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 24. "Se move funciona em tempo real, por que clicar não?"
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -631,7 +755,12 @@ selecionou. O adversário desenha exatamente as mesmas opções, do lado dele do
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 25. Tela apagada não é abandono
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -660,7 +789,12 @@ operacional, não indício de saída.
 
 # Rodada 7 · o pulso único
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 26. "Tudo é uma coisa só, uai"
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -726,7 +860,12 @@ jogando: *"por que a mensagem é instantânea e o resto não?"*
 
 # Rodada 8 · o diagnóstico do Marcos
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 27. "O modo demo está tentando jogar por mim"
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -757,7 +896,12 @@ partida remota começa.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 28. O ref que nascia depois do listener
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **O sintoma**
 
@@ -778,7 +922,12 @@ há ref no meio.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 29. Jogar em cima do tempo travava tudo
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -796,7 +945,12 @@ mesmo instante. Dois caminhos escrevem estado ao mesmo tempo e o cliente trava.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 30. "Não é mais fácil chamar a função que já funciona?"
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -825,7 +979,12 @@ outra — é chamar aquela.
 
 # Rodada 9 · desfazendo o excesso
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 31. "Os dois venceram" — duas causas somadas
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -858,7 +1017,12 @@ valor oficial e **corrige a própria tela**. Mais uma trava `endedRef` impede en
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 32. "Melhor deixar como estava antes"
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -897,7 +1061,12 @@ Dois caminhos, com fronteira clara. Não um, não quatro.
 
 # Rodada 10 · o roteiro de debug
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 33. O Marcos escreveu o plano de investigação
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 Em vez de relatar mais um sintoma, ele entregou um **roteiro de debug** em três passos: verificar o
 envio, verificar a escuta, verificar a renderização — cada um com o log exato e a conclusão possível
@@ -930,7 +1099,12 @@ silenciosa é a pior espécie: o código parece certo e o dado nunca chega.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 34. As soluções propostas por ele, aplicadas
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 Ele não trouxe só o diagnóstico: trouxe as correções, e todas foram implementadas.
 
@@ -971,7 +1145,12 @@ de verificação. O jogo evoluiu; o processo de investigação evoluiu junto.
 
 # Rodada 11 · a lógica certa aplicada ao resto
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 35. "A animação só começa pro adversário depois que já acabou aqui"
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -1026,7 +1205,12 @@ clique selecionando a peça"* — foi o diagnóstico e a correção na mesma sen
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 36. Ritmo é parte da mecânica
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -1049,7 +1233,12 @@ aconteceu — nem antes, nem depois.
 
 # Rodada 12 · o vencedor chegando antes do espetáculo
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 37. "A janela de você perdeu e ganhou apareceu junto"
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -1081,7 +1270,12 @@ Mais uma trava: `surrenderPlayingRef` bloqueia a tela final enquanto a animaçã
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 38. "Eu pedi umas 20 vezes pra o cronômetro parar"
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 Ele está certo — e a reclamação era justa. O `if (typing) return` existia desde cedo, mas o
 `deadline` era **absoluto**:
@@ -1120,7 +1314,12 @@ liberado de novo.
 
 # Rodada 13 · a confirmação
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 39. "Agora consertou, mlk doido!"
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 A rendição em duas etapas funcionou: a bandeira sobe nos dois ao mesmo tempo. Ele confirmou com a
 expressão que se tornou a régua de sucesso do projeto.
@@ -1131,7 +1330,12 @@ estava vindo antes do processamento) e a captura de peça com o mesmo atraso.
 A captura recebeu o mesmo tratamento: **anunciar antes de animar**. O clique no destino publica o
 lance imediatamente; a animação roda nos dois em paralelo.
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 40. Tela apagada ≠ abandono
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -1146,7 +1350,12 @@ vez** em vez de terminar a partida; e a janela de abandono subiu para 120s.
 
 O jogo dele continua rodando quando o celular dorme. A rodada é que se perde — o que é justo.
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 41. O Bluetooth, respondido com honestidade
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 > "Eu to querendo o bluetooth que vc não colocou! ou num dá assim?"
 
@@ -1163,7 +1372,12 @@ segundos é o limite do que se pode fazer — e está lá.
 
 # Rodada 14 · a correção que criou o bug pior
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 42. A peça que voltava sozinha
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -1190,7 +1404,12 @@ animação que ambos observam.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 43. O rival preso esperando celular dormir
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
@@ -1210,7 +1429,12 @@ de ocultação zera e o jogo continua — sem encerramento em cascata.
 
 ---
 
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
+
 ## 44. A janela só de quem chega pelo QR
+
+> 🔝 [topo](#topo-sacadas) · 📑 [índice](SACADAS-INDICE.md) · ⬅️ [README](../README.md)
 
 **A percepção**
 
